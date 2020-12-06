@@ -101,7 +101,7 @@ cout<<"test matrix multiply matrix"<<endl;
         cout << "please check your type." << endl << "retype :";
         cin >> j;
     }
-    cout<<*ans<<"*"<<j<<"="<<*ans*j<<endl<<j<<"*"<<*ans<<"="<<j**ans;
+    cout<<*ans<<"*"<<endl<<j<<endl<<"="<<endl<<*ans*j<<endl<<j<<endl<<"*"<<endl<<*ans<<"="<<endl<<j**ans;
 
 
 delete ans;delete matrix1;delete matrix2;
