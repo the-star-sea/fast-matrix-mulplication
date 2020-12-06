@@ -26,7 +26,7 @@ https://github.com/the-star-sea/homework2
 4.arm下的使用
 
  编译
- ![image.png](https://i.loli.net/2020/12/06/LdTaK2Y64DSH3f1.png)
+![](https://i.bmp.ovh/imgs/2020/12/b61cdd86637b9b7e.png)
  运行
  [![DjEEN9.jpg](https://s3.ax1x.com/2020/12/06/DjEEN9.jpg)](https://imgchr.com/i/DjEEN9)
  [![DjEm1x.jpg](https://s3.ax1x.com/2020/12/06/DjEm1x.jpg)](https://imgchr.com/i/DjEm1x)
