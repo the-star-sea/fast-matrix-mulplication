@@ -41,8 +41,8 @@ Matrix(Matrix const &matrix);
     Matrix();
     void operator=(Matrix const & temp);
     Matrix operator*(Matrix temp) const;
-    Matrix operator*(int temp) const;
-    friend  Matrix operator*(int tempt,Matrix matrix);
+    Matrix operator*(float temp) const;
+    friend  Matrix operator*(float tempt,Matrix matrix);
     friend ostream & operator<<(ostream &out,  Matrix obj);
 
     ~Matrix();

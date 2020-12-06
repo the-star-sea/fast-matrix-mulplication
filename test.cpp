@@ -93,7 +93,7 @@ cout<<"test matrix multiply matrix"<<endl;
     Matrix *ans = new Matrix(column2, row1, new float[row1 * column2]);
     *ans = *matrix1 * *matrix2;
     cout << *ans;int j;
-    cout<<"test number multiply matrix and matrix multiply scaler and scaler multiply matrix"<<endl<<"input an interger: ";
+    cout<<"test number multiply matrix and matrix multiply scaler and scaler multiply matrix"<<endl<<"input an float: ";
     cin >> j;
     while (cin.fail()) {
         cin.clear();

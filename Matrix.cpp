@@ -8,7 +8,7 @@ Matrix Matrix::operator*( Matrix matrix2) const {
 
     return *ans;
 }
-Matrix Matrix::operator*(int temp) const {
+Matrix Matrix::operator*(float temp) const {
     float * an=new float [getRow() *getColumn()];
     Matrix *ans=new Matrix(  getColumn(),getRow(),an);
     for(int i=0;i<getRow() *getColumn();i++){
@@ -16,7 +16,7 @@ Matrix Matrix::operator*(int temp) const {
     }
         return *ans;
 }
-Matrix operator*(int tempt,Matrix matrix){
+Matrix operator*(float tempt,Matrix matrix){
     float * an=new float [matrix.getRow() *matrix.getColumn()];
     Matrix *ans=new Matrix(  matrix.getColumn(),matrix.getRow(),an);
     for(int i=0;i<matrix.getRow() *matrix.getColumn();i++){
