@@ -39,7 +39,7 @@ ostream & operator<<(ostream &out,  Matrix obj){
         out << endl;
     }return out;}
 void matrixmatrix(const Matrix *matrix1, Matrix matrix2, Matrix* ans) {
-#if defined(_ENABLE_NEON)
+#if defined(ARM)
     for (int i = 0; i < matrix1->getRow(); i++) {
         for (int j = 0; j < matrix2.getColumn(); j++) {
             for (int k = 0; k < matrix1->getColumn(); k++) {

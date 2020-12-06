@@ -6,7 +6,7 @@
 #define D_MATRIX_H
 
 #define _ENABLE_AVX2 //Please enable it if X64 CPU
-//#define _ENABLE_NEON //Please enable it if ARM CPU
+//#define ARM //Please enable it if ARM CPU
 #if  defined(_ENABLE_AVX2)
 #include <immintrin.h>
 #endif
