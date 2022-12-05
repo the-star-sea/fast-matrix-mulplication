@@ -1,4 +1,4 @@
-# CS205 C/ C++ Programming – Matrix
+# Fast Matrix Multiplication
 Name：张通
 
 SID: 11911611
