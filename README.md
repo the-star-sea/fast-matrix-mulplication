@@ -2,12 +2,10 @@
 Name：张通
 
 SID: 11911611
-## Part 1 - Analysis
+## Analysis
 这次作业是在上次作业下的改进，主要是增加了内存管理，运算符的重载，利用cmake,并且在开发板上运行，后两项是我在课下经常做的事情，而内存管理，实在是一门有趣的学问，我想老师布置作业的初心，正是让我们熟练地运用指针，详见part3
-## Part 2 - Code
-https://github.com/the-star-sea/homework2
-请使用提供的所有文件
-## Part 3 - Result & Verification
+
+##  Result & Verification
 1.计算
 
 矩阵乘矩阵
@@ -31,7 +29,7 @@ https://github.com/the-star-sea/homework2
  [![DjEEN9.jpg](https://s3.ax1x.com/2020/12/06/DjEEN9.jpg)](https://imgchr.com/i/DjEEN9)
  [![DjEm1x.jpg](https://s3.ax1x.com/2020/12/06/DjEm1x.jpg)](https://imgchr.com/i/DjEm1x)
 
-## Part 4 - Difficulties & Solutions
+##  Difficulties & Solutions
 1. 指针的使用
 
 指针实在是一个大坑，平常做作业感觉能用就行，这次project让我体会到了它变化莫测的bug.
