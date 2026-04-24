@@ -44,3 +44,20 @@ SID: 11911611
 3.开发板的配置
 
 由于指令集差异，在不同环境要改enable_avx的宏，arm与avx不兼容,一些编译优化也要相应调整
+
+## Project Structure
+```
+.
+|-- CMakeLists.txt
+|-- Matrix.cpp
+|-- Matrix.h
+|-- README.md
+`-- test.cpp
+
+1 directory, 5 files
+```
+
+
+## Quick Start
+Review the source files for build and execution instructions.
+
